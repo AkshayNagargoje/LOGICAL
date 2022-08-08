@@ -28,10 +28,20 @@ public static void main(String[] args) {
 	 
 	StringBuffer sb= new StringBuffer(String.valueOf(123456));
 	StringBuffer rev1 = sb.reverse();
-	System.out.println("reverse number "+ rev1);
+	System.out.println("STRING BUFFER reverse number "+ rev1);
 	
 	StringBuffer sb2 = new StringBuffer(String.valueOf("dcba"));
 	StringBuffer rev2 = sb2.reverse();
-	System.out.println("reverse number "+ rev2);
+	System.out.println(" STRING BUFFER reverse number "+ rev2);
+	 
+	System.out.println(); 
+	
+	// STRING BUILDER
+	System.out.println("using STRING BUILDER CLASS");
+	StringBuilder sb3= new StringBuilder();
+	sb3.append(987654);
+	StringBuilder rev4 =sb3.reverse();
+	System.out.println("STRING BULDER reverse number "+ rev4);
+	
 }
 }
